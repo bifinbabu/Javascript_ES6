@@ -1,4 +1,4 @@
-// 57. Write a JavaScript program to compute the average of an array, after mapping each element to a value using the provided function.
+// 58. Write a JavaScript program to split values into two groups according to a predicate function. This specifies which group an element in the input collection belongs to.
 
 const bifurcateBy = (arr, fn) =>
   arr.reduce(
