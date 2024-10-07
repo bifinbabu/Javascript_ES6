@@ -1,7 +1,7 @@
 // 85. Write a JavaScript program to replace all but the last number of characters with the specified mask character.
 
-const mask = (str, len = 2, replacer = "*") =>
-  (str + "").split("").slice(len).join("");
+const mask = (cc, num = 4, mask = "*") =>
+  ("" + cc).slice(0, -num).replace(/./g, mask) + ("" + cc).slice(-num);
 
 // Example usage:
 console.log(mask(1234567890));
